@@ -22,9 +22,9 @@ namespace SecureCoreAPI
             services.AddAuthentication("Bearer")
                 .AddJwtBearer("Bearer", options =>
                 {
-                    options.Authority = "http://localhost:5000"; //validate the incoming token to make sure it is coming from a trusted issuer
+                    options.Authority = "https://localhost:5000"; //validate the incoming token to make sure it is coming from a trusted issuer
                     options.RequireHttpsMetadata = false;
-                    options.Audience = "SecureCoreAPI"; //validate that the token is valid to be used with this api (aka audience)
+                    options.Audience = "securecoreapi"; //validate that the token is valid to be used with this api (aka audience)
                 });
         }
 

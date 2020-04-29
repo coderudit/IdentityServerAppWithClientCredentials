@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{79DC350B-B4AF-4694-8723-DEAF8A19BBDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureCoreAPI", "SecureCoreAPI\SecureCoreAPI.csproj", "{7F860FF9-AFF8-4D4F-9BC9-410F96D1B254}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureCoreAPI", "SecureCoreAPI\SecureCoreAPI.csproj", "{7F860FF9-AFF8-4D4F-9BC9-410F96D1B254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientAPI", "ClientAPI\ClientAPI.csproj", "{A1708BB2-D0A0-4AAC-B668-6AED22819BD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientAPI", "ClientAPI\ClientAPI.csproj", "{A1708BB2-D0A0-4AAC-B668-6AED22819BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCApp", "MVCApp\MVCApp.csproj", "{4E38F397-52FC-43B6-B73F-E608B121056C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,18 @@ Global
 		{A1708BB2-D0A0-4AAC-B668-6AED22819BD0}.Release|x64.Build.0 = Release|Any CPU
 		{A1708BB2-D0A0-4AAC-B668-6AED22819BD0}.Release|x86.ActiveCfg = Release|Any CPU
 		{A1708BB2-D0A0-4AAC-B668-6AED22819BD0}.Release|x86.Build.0 = Release|Any CPU
+		{4E38F397-52FC-43B6-B73F-E608B121056C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E38F397-52FC-43B6-B73F-E608B121056C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E38F397-52FC-43B6-B73F-E608B121056C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4E38F397-52FC-43B6-B73F-E608B121056C}.Debug|x64.Build.0 = Debug|Any CPU
+		{4E38F397-52FC-43B6-B73F-E608B121056C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4E38F397-52FC-43B6-B73F-E608B121056C}.Debug|x86.Build.0 = Debug|Any CPU
+		{4E38F397-52FC-43B6-B73F-E608B121056C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E38F397-52FC-43B6-B73F-E608B121056C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E38F397-52FC-43B6-B73F-E608B121056C}.Release|x64.ActiveCfg = Release|Any CPU
+		{4E38F397-52FC-43B6-B73F-E608B121056C}.Release|x64.Build.0 = Release|Any CPU
+		{4E38F397-52FC-43B6-B73F-E608B121056C}.Release|x86.ActiveCfg = Release|Any CPU
+		{4E38F397-52FC-43B6-B73F-E608B121056C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

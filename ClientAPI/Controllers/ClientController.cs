@@ -32,7 +32,7 @@ namespace ClientAPI.Controllers
             // discover endpoints from metadata
             var client = new HttpClient();
 
-            var disco = await client.GetDiscoveryDocumentAsync("http://localhost:5000");
+            var disco = await client.GetDiscoveryDocumentAsync("https://localhost:5000");
             if (disco.IsError)
             {
                 Console.WriteLine(disco.Error);
@@ -45,8 +45,7 @@ namespace ClientAPI.Controllers
                 Address = disco.TokenEndpoint,
                 ClientId = "ClientAPI",
                 ClientSecret = "secret",
-
-                Scope = "SecureCoreAPI"
+                Scope = "securecoreapi"
             });
 
             if (tokenResponse.IsError)
